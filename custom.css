@@ -1,0 +1,79 @@
+img.floatphoto {
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-right: 10pt;
+	margin-bottom: 10pt;
+}
+
+/* Override some settings from the basic template */
+
+p, ul, li {
+		line-height: 1.15em;
+}
+
+#header {
+  background: url('images/lif-horizontal-blanc.png') 10pt center no-repeat;
+}
+
+body {
+	color: #333;
+}
+
+#page-wrapper {
+  background: url('images/fond-10.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#main {
+	background: transparent;
+}
+
+#main .container {
+  border-style: solid;
+  border-width: 1px;  
+  border-radius: 10px;
+  box-shadow: 20px 20px grey;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.post-summary h2 {
+	margin-bottom: 4pt;
+}
+
+.post-summary h2 a {
+	text-decoration: none;
+}
+
+.postimage {
+	margin-bottom: 10pt;
+}
+
+.noscalepostimage img {
+	/* Don't scale these images */
+}
+
+.postimage img {
+	width: 100%;
+	height: 100%;
+}
+
+.postinfo {
+	margin-top: 4pt;
+}
+
+/* Inside page's body, reset CSS properties to sane values */
+
+#main {
+	letter-spacing: -0.5px;
+}
+
+#main h1 {
+	font-size: 28pt;
+	margin-bottom: 10pt;
+}
+
+#main ul, #main ol {
+	margin: 12pt;
+}
